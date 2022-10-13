@@ -1,0 +1,14 @@
+.dishes-card__button {
+    background: #262626;
+    border: 2px solid #303030;
+    border-radius: 30px;
+    color: #FFFFFF80;
+    width: 100px;
+    height: 40px;
+}
+
+.dishes-card__button:hover {
+    background: #34C759;
+    border: 2px solid #34C759;
+    color: #252525;
+}

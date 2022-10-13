@@ -1,0 +1,7 @@
+.dishes-card {
+    margin: 0;
+    list-style: none;
+    background-color: #252525;
+    width: 350px;
+    margin-bottom: 30px;
+}

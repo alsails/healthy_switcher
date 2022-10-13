@@ -1,0 +1,11 @@
+.header__subtitle {
+    font-family: 'Helvetica neue';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0;
+    opacity: 0,7;
+    width: 595px;
+    text-align: center;
+    margin-top: 16px;
+}

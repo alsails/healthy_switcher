@@ -1,0 +1,11 @@
+.social-card__header-name {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 10px;
+
+    color: #BFBFBF;
+
+    margin: 14px 0 0 20px;
+}

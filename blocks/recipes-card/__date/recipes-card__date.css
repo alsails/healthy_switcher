@@ -1,0 +1,12 @@
+.recipes-card__date {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+
+    margin: 8px 0 0 0;
+    width: 73px;
+}

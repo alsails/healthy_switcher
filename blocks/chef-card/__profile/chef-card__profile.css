@@ -1,0 +1,7 @@
+.chef-card__profile {
+    display: flex;
+    flex-direction: row;
+
+    max-width: 254px;
+    height: 65px;
+}

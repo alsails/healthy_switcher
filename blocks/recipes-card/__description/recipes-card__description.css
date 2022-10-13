@@ -1,0 +1,13 @@
+.recipes-card__description {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 16px;
+
+    color: #FFFFFF;
+
+    width: 452px;
+
+    margin: 0;
+}

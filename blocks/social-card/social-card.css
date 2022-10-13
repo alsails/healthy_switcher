@@ -1,0 +1,13 @@
+.social-card {
+    list-style: none;
+
+    width: 350px;
+    height: 330px;
+
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    background-color: #252525;
+
+    position: relative;
+}

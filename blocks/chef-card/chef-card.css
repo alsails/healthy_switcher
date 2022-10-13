@@ -1,0 +1,15 @@
+.chef-card {
+    list-style: none;
+    max-width: 350px;
+    height: 154px;
+    margin-bottom: 30px;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-right: 30px;
+}
+
+.chef-card:last-child {
+    margin-right: 0;
+}

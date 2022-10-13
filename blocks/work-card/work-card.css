@@ -1,0 +1,24 @@
+.work-card {
+    background-color: #252525;
+    border-radius: 6px;
+    width: 255px;
+    height: 206px;
+}
+
+.work-card:hover {
+    background-color: #34C759;
+}
+
+.work-card:hover  .work-card__title{
+    color: #191919;
+    font-weight: 500;
+}
+
+.work-card:hover  .work-card__description{
+    color: #191919;
+    font-weight: 500;
+}
+
+.work-card:hover  .line{
+    border:1px solid #191919;
+}

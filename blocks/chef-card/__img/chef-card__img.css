@@ -1,0 +1,9 @@
+.chef-card__img {
+    max-width: 65px;
+    height: 65px;
+    margin-right: 30px;
+}
+
+.chef-card__img:last-child {
+    margin-right: 0;
+}

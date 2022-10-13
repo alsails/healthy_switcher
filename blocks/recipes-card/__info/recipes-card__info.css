@@ -1,0 +1,4 @@
+.recipes-card__info {
+    display: flex;
+    flex-direction: row;
+}

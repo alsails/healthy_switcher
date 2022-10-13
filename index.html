@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>HEALTHY SWITCHER</title>
+</head>
+
+<body class="root">
+
+    <header class="header">
+        <div class="header__menu">
+            <div class="header__menu-content">
+                <div class="logo logo_place_header"></div>
+                <nav class="header__links">
+                    <a class="header__link" href="#work">How it works</a>
+                    <a class="header__link" href="#dishes">Dish</a>
+                    <a class="header__link" href="#chef">Chefs</a>
+                    <a class="header__link" href="#recipes">Recipes</a>
+                    <a class="header__link" href="#social">Contacts</a>
+                </nav>
+            </div>
+        </div>
+
+
+        <div class="header__content">
+            <h1 class="header__title">Your <span class="header__span-accent">Favourite Food</span> Delivered <span
+                    class="header__span-accent">Hot & Fresh</span></h1>
+            <p class="header__subtitle">HEALTHY SWITCHER chefs do all the prep work, like peeling, chopping &
+                marinating, so you can cook a fresh homemade dinner in just 15 minutes.</p>
+            <button type="button" class="header__button">Order Now</button>
+            <ul class="cards">
+                <li class="card">
+                    <img class="card__img" src="./images/ic_watch_later.png">
+                    <h2 class="card__title">Today 10:00 am - 7:00 pm</h2>
+                    <p class="card__subtitle">Working hours</p>
+                </li>
+                <li class="card">
+                    <img class="card__img" src="./images/ic_near_me.png">
+                    <h2 class="card__title">Velyka Vasylkivska 100</h2>
+                    <p class="card__subtitle">Get Directions</p>
+                </li>
+                <li class="card">
+                    <img class="card__img" src="./images/ic_call.png">
+                    <h2 class="card__title">+38 (063)833 24 15</h2>
+                    <p class="card__subtitle">Call Online</p>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="content">
+        <section class="about">
+            <h2 class="about__title">The Basics Of Healthy Food</h2>
+            <p class="about__subtitle">In aliqua ea ullamco ad est ex non deserunt nulla. Consectetur sint ea aliquip
+                aliquip consectetur voluptate est. Eu minim dolore laboris enim mollit voluptate irure esse aliquip.</p>
+
+            <div class="about__images">
+                <img class="about__img" src="./images/fish.png">
+                <img class="about__img" src="./images/salat.png">
+            </div>
+        </section>
+        <a name="work"></a>
+        <section class="work">
+            <h2 class="section-title">How It Works</h2>
+            <ul class="work-cards">
+                <li class="work-card">
+                    <h3 class="work-card__title">Pick Meals</h3>
+                    <hr class="line">
+                    <p class="work-card__description">Choose your meals from our diverse weekly menu. Find gluten or
+                        dairy free, low carb & veggie options.</p>
+                </li>
+                <li class="work-card">
+                    <h3 class="work-card__title">Choose How Often</h3>
+                    <hr class="line">
+                    <p class="work-card__description">Our team of chefs do the prep work - no more chopping, measuring,
+                        or sink full of dishes!</p>
+                </li>
+                <li class="work-card">
+                    <h3 class="work-card__title">Fast Deliveries</h3>
+                    <hr class="line">
+                    <p class="work-card__description">Your freshly prepped 15-min dinner kits arrive on your doorstep in
+                        a refrigerated box.</p>
+                </li>
+                <li class="work-card">
+                    <h3 class="work-card__title">Tasty Meals</h3>
+                    <hr class="line">
+                    <p class="work-card__description">Gobble makes cooking fast, so you have more time to unwind and be
+                        with family.</p>
+                </li>
+            </ul>
+        </section>
+        <a name="dishes"></a>
+        <section class="dishes">
+            <h2 class="section-title">Dish Of The Day</h2>
+            <ul class="dishes-cards">
+                <li class="dishes-card">
+                    <img class="dishes-card__img" src="./images/1.png">
+                    <h3 class="dishes-card__title">Featured Meal</h3>
+                    <p class="dishes-card__structure">Served with french fries + drink</p>
+                    <p class="dishes-card__description">Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add
+                        whopper patty, Add Tender crisp patty and more...</p>
+                    <div class="dishes-card__about">
+                        <div class="dishes-card__star">
+                            <input type="radio" id="star-5" name="rating" value="5">
+                            <label for="star-5" title="Оценка «5»"></label>
+                            <input type="radio" id="star-4" name="rating" value="4">
+                            <label for="star-4" title="Оценка «4»"></label>
+                            <input type="radio" id="star-3" name="rating" value="3">
+                            <label for="star-3" title="Оценка «3»"></label>
+                            <input type="radio" id="star-2" name="rating" value="2">
+                            <label for="star-2" title="Оценка «2»"></label>
+                            <input type="radio" id="star-1" name="rating" value="1">
+                            <label for="star-1" title="Оценка «1»"></label>
+                        </div>
+                        <button type="button" class="dishes-card__button">Order</button>
+                    </div>
+                </li>
+                <li class="dishes-card">
+                    <img class="dishes-card__img" src="./images/2.png">
+                    <h3 class="dishes-card__title">Featured Meal</h3>
+                    <p class="dishes-card__structure">Served with french fries + drink</p>
+                    <p class="dishes-card__description">Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add
+                        whopper patty, Add Tender crisp patty and more...</p>
+                    <div class="dishes-card__about">
+                        <div class="dishes-card__star">
+                            <input type="radio" id="star-5" name="rating" value="5">
+                            <label for="star-5" title="Оценка «5»"></label>
+                            <input type="radio" id="star-4" name="rating" value="4">
+                            <label for="star-4" title="Оценка «4»"></label>
+                            <input type="radio" id="star-3" name="rating" value="3">
+                            <label for="star-3" title="Оценка «3»"></label>
+                            <input type="radio" id="star-2" name="rating" value="2">
+                            <label for="star-2" title="Оценка «2»"></label>
+                            <input type="radio" id="star-1" name="rating" value="1">
+                            <label for="star-1" title="Оценка «1»"></label>
+                        </div>
+                        <button type="button" class="dishes-card__button">Order</button>
+                    </div>
+                </li>
+                <li class="dishes-card">
+                    <img class="dishes-card__img" src="./images/3.png">
+                    <h3 class="dishes-card__title">Featured Meal</h3>
+                    <p class="dishes-card__structure">Served with french fries + drink</p>
+                    <p class="dishes-card__description">Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add
+                        whopper patty, Add Tender crisp patty and more...</p>
+                    <div class="dishes-card__about">
+                        <div class="dishes-card__star">
+                            <input type="radio" id="star-5" name="rating" value="5">
+                            <label for="star-5" title="Оценка «5»"></label>
+                            <input type="radio" id="star-4" name="rating" value="4">
+                            <label for="star-4" title="Оценка «4»"></label>
+                            <input type="radio" id="star-3" name="rating" value="3">
+                            <label for="star-3" title="Оценка «3»"></label>
+                            <input type="radio" id="star-2" name="rating" value="2">
+                            <label for="star-2" title="Оценка «2»"></label>
+                            <input type="radio" id="star-1" name="rating" value="1">
+                            <label for="star-1" title="Оценка «1»"></label>
+                        </div>
+                        <button type="button" class="dishes-card__button">Order</button>
+                    </div>
+                </li>
+                <li class="dishes-card">
+                    <img class="dishes-card__img" src="./images/4.png">
+                    <h3 class="dishes-card__title">Featured Meal</h3>
+                    <p class="dishes-card__structure">Served with french fries + drink</p>
+                    <p class="dishes-card__description">Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add
+                        whopper patty, Add Tender crisp patty and more...</p>
+                    <div class="dishes-card__about">
+                        <div class="dishes-card__star">
+                            <input type="radio" id="star-5" name="rating" value="5">
+                            <label for="star-5" title="Оценка «5»"></label>
+                            <input type="radio" id="star-4" name="rating" value="4">
+                            <label for="star-4" title="Оценка «4»"></label>
+                            <input type="radio" id="star-3" name="rating" value="3">
+                            <label for="star-3" title="Оценка «3»"></label>
+                            <input type="radio" id="star-2" name="rating" value="2">
+                            <label for="star-2" title="Оценка «2»"></label>
+                            <input type="radio" id="star-1" name="rating" value="1">
+                            <label for="star-1" title="Оценка «1»"></label>
+                        </div>
+                        <button type="button" class="dishes-card__button">Order</button>
+                    </div>
+                </li>
+                <li class="dishes-card">
+                    <img class="dishes-card__img" src="./images/5.png">
+                    <h3 class="dishes-card__title">Featured Meal</h3>
+                    <p class="dishes-card__structure">Served with french fries + drink</p>
+                    <p class="dishes-card__description">Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add
+                        whopper patty, Add Tender crisp patty and more...</p>
+                    <div class="dishes-card__about">
+                        <div class="dishes-card__star">
+                            <input type="radio" id="star-5" name="rating" value="5">
+                            <label for="star-5" title="Оценка «5»"></label>
+                            <input type="radio" id="star-4" name="rating" value="4">
+                            <label for="star-4" title="Оценка «4»"></label>
+                            <input type="radio" id="star-3" name="rating" value="3">
+                            <label for="star-3" title="Оценка «3»"></label>
+                            <input type="radio" id="star-2" name="rating" value="2">
+                            <label for="star-2" title="Оценка «2»"></label>
+                            <input type="radio" id="star-1" name="rating" value="1">
+                            <label for="star-1" title="Оценка «1»"></label>
+                        </div>
+                        <button type="button" class="dishes-card__button">Order</button>
+                    </div>
+                </li>
+                <li class="dishes-card">
+                    <img class="dishes-card__img" src="./images/6.png">
+                    <h3 class="dishes-card__title">Featured Meal</h3>
+                    <p class="dishes-card__structure">Served with french fries + drink</p>
+                    <p class="dishes-card__description">Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add
+                        whopper patty, Add Tender crisp patty and more...</p>
+                    <div class="dishes-card__about">
+                        <div class="dishes-card__star">
+                            <input type="radio" id="star-5" name="rating" value="5">
+                            <label for="star-5" title="Оценка «5»"></label>
+                            <input type="radio" id="star-4" name="rating" value="4">
+                            <label for="star-4" title="Оценка «4»"></label>
+                            <input type="radio" id="star-3" name="rating" value="3">
+                            <label for="star-3" title="Оценка «3»"></label>
+                            <input type="radio" id="star-2" name="rating" value="2">
+                            <label for="star-2" title="Оценка «2»"></label>
+                            <input type="radio" id="star-1" name="rating" value="1">
+                            <label for="star-1" title="Оценка «1»"></label>
+                        </div>
+                        <button type="button" class="dishes-card__button">Order</button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <a name="chef"></a>
+        <section class="chef">
+            <h2 class="section-title">This month's chefs</h2>
+            <ul class="chef-cards">
+                <li class="chef-card">
+                    <div class="chef-card__profile">
+                        <img src="./images/Avatar1.png" alt="Avatar" class="chef-card__profile-avatar">
+                        <div class="chef-card__profile-about">
+                            <h3 class="chef-card__profile-name">Gregory Flores</h3>
+                            <p class="chef-card__profile-description">Chef of the cold</p>
+                        </div>
+                    </div>
+                    <div class="chef-card__imgs">
+                        <img src="./images/cold1.png" alt="" class="chef-card__img chef-card__img-first">
+                        <img src="./images/cold2.png" alt="" class="chef-card__img">
+                        <img src="./images/cold3.png" alt="" class="chef-card__img">
+                    </div>
+                </li>
+                <li class="chef-card">
+                    <div class="chef-card__profile">
+                        <img src="./images/Avatar2.png" alt="Avatar" class="chef-card__profile-avatar">
+                        <div class="chef-card__profile-about">
+                            <h3 class="chef-card__profile-name">Gregory Flores</h3>
+                            <p class="chef-card__profile-description">Chef of the cold</p>
+                        </div>
+                    </div>
+                    <div class="chef-card__imgs">
+                        <img src="./images/hot1.png" alt="" class="chef-card__img chef-card__img-first">
+                        <img src="./images/hot2.png" alt="" class="chef-card__img">
+                        <img src="./images/hot3.png" alt="" class="chef-card__img">
+                    </div>
+                </li>
+                <li class="chef-card">
+                    <div class="chef-card__profile">
+                        <img src="./images/Avatar3.png" alt="Avatar" class="chef-card__profile-avatar">
+                        <div class="chef-card__profile-about">
+                            <h3 class="chef-card__profile-name">Gregory Flores</h3>
+                            <p class="chef-card__profile-description">Chef of the cold</p>
+                        </div>
+                    </div>
+                    <div class="chef-card__imgs">
+                        <img src="./images/macro1.png" alt="" class="chef-card__img chef-card__img-first">
+                        <img src="./images/macro2.png" alt="" class="chef-card__img">
+                        <img src="./images/macro3.png" alt="" class="chef-card__img">
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <a name="recipes"></a>
+        <section class="recipes">
+            <h2 class="section-title">Recipes From Our Chefs</h2>
+            <ul class="recipes-cards">
+                <li class="recipes-card recipes-card-breakfast">
+                    <p class="recipes-card__type recipes-card__type-breakfast">breakfast</p>
+                    <p class="recipes-card__date recipes-card__date-breakfast">05 Jul 2016</p>
+                    <p class="recipes-card__description recipes-card__description-breakfast">Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit</p>
+                </li>
+                <li class="recipes-card recipes-card-lunch">
+                    <p class="recipes-card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut</p>
+                    <div class="recipes-card__info">
+                        <p class="recipes-card__type">lunch</p>
+                        <p class="recipes-card__date">05 Jul 2016</p>
+                    </div>
+                </li>
+                <li class="recipes-card recipes-card-dinner">
+                    <p class="recipes-card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut</p>
+                    <div class="recipes-card__info">
+                        <p class="recipes-card__type">dinner</p>
+                        <p class="recipes-card__date">05 Jul 2016</p>
+                    </div>
+                </li>
+                <li class="recipes-card recipes-card-sweets">
+                    <p class="recipes-card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut</p>
+                    <div class="recipes-card__info">
+                        <p class="recipes-card__type">sweets</p>
+                        <p class="recipes-card__date">05 Jul 2016</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <a name="social"></a>
+        <section class="social">
+            <h2 class="section-title">We in Social</h2>
+            <ul class="social-cards">
+                <li class="social-card">
+                    <div class="social-card__header">
+                        <img src="./images/Twitter.png" alt="" class="social-card__header-logo">
+                        <h2 class="social-card__header-name">Twitter</h2>
+                        <a class="social-card__header-button">
+                            <p class="social-card__header-button-text">follow us</p>
+                        </a>
+                    </div>
+                    <div class="social-card__content">
+                        <p class="social-card__content-date">24 Jun at 16:20 pm</p>
+                        <p class="social-card__content-description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit amet, consectetur adipiscing
+                        </p>
+                    </div>
+                </li>
+                <li class="social-card">
+                    <div class="social-card__header">
+                        <img src="./images/Instagram.png" alt="" class="social-card__header-logo">
+                        <h2 class="social-card__header-name">Instagram</h2>
+                        <a class="social-card__header-button">
+                            <p class="social-card__header-button-text">follow us</p>
+                        </a>
+                    </div>
+                    <div class="social-card__content-imgs">
+                        <img src="./images/inst1.png" alt="" class="social-card__content-img">
+                        <img src="./images/inst2.png" alt="" class="social-card__content-img">
+                        <img src="./images/inst3.png" alt="" class="social-card__content-img">
+                        <img src="./images/inst4.png" alt="" class="social-card__content-img">
+                        <img src="./images/inst5.png" alt="" class="social-card__content-img">
+                        <img src="./images/inst6.png" alt="" class="social-card__content-img">
+                    </div>
+                </li>
+                <li class="social-card">
+                    <div class="social-card__header">
+                        <img src="./images/Facebook.png" alt="" class="social-card__header-logo">
+                        <h2 class="social-card__header-name">Facebook</h2>
+                        <a class="social-card__header-button">
+                            <p class="social-card__header-button-text">follow us</p>
+                        </a>
+                    </div>
+                    <div class="social-card__content">
+                        <p class="social-card__content-date">26 Jun at 16:20 pm</p>
+                        <p class="social-card__content-description">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit amet, consectetur adipiscing
+                            Lorem ipsum dolor sit amet, consectetur adipiscing </p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        </main>
+
+        <footer class="footer">
+            <ul class="cards">
+                <li class="card">
+                    <img class="card__img" src="./images/ic_watch_later.png">
+                    <h2 class="card__title">Today 10:00 am - 7:00 pm</h2>
+                    <p class="card__subtitle">Working hours</p>
+                </li>
+                <li class="card">
+                    <img class="card__img" src="./images/ic_near_me.png">
+                    <h2 class="card__title">Velyka Vasylkivska 100</h2>
+                    <p class="card__subtitle">Get Directions</p>
+                </li>
+                <li class="card">
+                    <img class="card__img" src="./images/ic_call.png">
+                    <h2 class="card__title">+38 (063)833 24 15</h2>
+                    <p class="card__subtitle">Call Online</p>
+                </li>
+            </ul>
+            <div class="logo logo_place_footer"></div>
+            <p class="footer__cooperation">© Designed by Yellow Snow. All Rights Reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>

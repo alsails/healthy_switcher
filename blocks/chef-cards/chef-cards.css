@@ -1,0 +1,6 @@
+.chef-cards {
+    display: flex;
+    flex-direction: row;
+
+    padding: 0;
+}

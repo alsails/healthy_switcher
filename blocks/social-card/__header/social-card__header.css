@@ -1,0 +1,6 @@
+.social-card__header {
+    display: flex;
+    flex-direction: row;
+
+    margin: 25px 30px 26px 25px;
+}

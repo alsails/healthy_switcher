@@ -1,0 +1,11 @@
+.recipes-card-breakfast {
+    height: 510px;
+    max-width: 540px;
+
+    background-image: url(../../../images/breakfast.png);
+
+    margin-right: 30px;
+    padding: 0px;
+
+    box-sizing: content-box;
+}

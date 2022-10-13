@@ -1,0 +1,8 @@
+.social-card__content-img {
+    width: 115px;
+    height: 120px;
+}
+
+.social-card__content-img:nth-child(1) .social-card__content-img:nth-child(4){
+    width: 120px;
+}

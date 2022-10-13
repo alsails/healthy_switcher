@@ -1,0 +1,6 @@
+.chef-card__imgs {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 24px;
+}

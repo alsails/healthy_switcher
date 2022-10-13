@@ -1,0 +1,13 @@
+.chef-card__profile-description {
+    font-family: 'Helvetica neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.15px;
+
+    color: rgba(255, 255, 255, 0.5);
+
+    margin: 9px 0 0 0;
+    padding: 0;
+}

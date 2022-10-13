@@ -1,0 +1,42 @@
+.dishes-card__star {
+	overflow: hidden;
+	width: 120px;
+    height: 20px;
+    margin-left: -20px;
+    margin-top: 10px;
+}
+.dishes-card__star:not(:checked) > input {
+	display: none;
+}
+.dishes-card__star:not(:checked) > label {
+	float: right;
+	width: 20px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 20px;
+	line-height: 20px;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.dishes-card__star:not(:checked) > label:before {
+	content: '★';
+}
+.dishes-card__star > input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+.dishes-card__star:not(:checked) > label:hover,
+.dishes-card__star:not(:checked) > label:hover ~ label {
+	color: gold;
+}
+.dishes-card__star > input:checked + label:hover,
+.dishes-card__star > input:checked + label:hover ~ label,
+.dishes-card__star > input:checked ~ label:hover,
+.dishes-card__star > input:checked ~ label:hover ~ label,
+.dishes-card__star > label:hover ~ input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px goldenrod;
+}
+.dishes-card__star > label:active {
+	position: relative;
+}

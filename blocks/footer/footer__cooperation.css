@@ -1,0 +1,13 @@
+.footer__cooperation {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+
+    margin: 10px auto 30px auto;
+
+    color: #737373;
+    text-align: center;
+
+    width: 349px;
+}

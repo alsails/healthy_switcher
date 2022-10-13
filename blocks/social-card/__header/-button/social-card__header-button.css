@@ -1,0 +1,17 @@
+.social-card__header-button {
+    box-sizing: border-box;
+
+    background-color: #252525;
+
+    border-radius: 30px;
+    border: 1px solid #303030;
+    padding: 15px 18px 15px 18px;
+    height: 40px;
+
+    position: absolute;
+    left: 207px
+} 
+
+.social-card__header-button:hover {
+    border: 1px solid #34C759;
+}
